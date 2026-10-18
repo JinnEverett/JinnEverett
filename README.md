@@ -5,6 +5,7 @@
   <img src="assets/header-light.svg" alt="Vu Bao Minh — Backend Engineer, Hanoi, Vietnam" width="100%" />
 </picture>
 
+<a href="https://www.linkedin.com/in/jinneverett/"><img src="https://img.shields.io/badge/LinkedIn-jinneverett-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:jinneverett@gmail.com"><img src="https://img.shields.io/badge/Email-jinneverett%40gmail.com-0969da?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 <img src="https://img.shields.io/badge/Java%20%C2%B7%20Spring%20Boot-6DB33F?style=flat-square" alt="Java, Spring Boot" />
 <img src="https://img.shields.io/badge/NestJS%20%C2%B7%20TypeScript-E0234E?style=flat-square" alt="NestJS, TypeScript" />
