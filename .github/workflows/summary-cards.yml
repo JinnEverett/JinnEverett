@@ -30,6 +30,9 @@ jobs:
           ANIMATION: fade
           AUTO_PUSH: false
 
+      # the action clears its output folder on each run, so park the light cards
+      - run: mv profile-summary-card-output/github "$RUNNER_TEMP/light"
+
       - name: Cards (dark)
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
@@ -40,4 +43,13 @@ jobs:
           UTC_OFFSET: 7
           THEME: github_dark
           ANIMATION: fade
-          AUTO_PUSH: true
+          AUTO_PUSH: false
+
+      - name: Commit cards
+        run: |
+          mv "$RUNNER_TEMP/light" profile-summary-card-output/github
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-summary-card-output
+          git diff --cached --quiet || git commit -m "Generate profile summary cards"
+          git push
