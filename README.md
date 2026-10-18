@@ -17,6 +17,9 @@
 
 I build the part of a product users never see but always depend on: **APIs, data, and the workflows between services**. I care about systems that stay correct under retries, concurrency and failure, and about code a team can still change a year later. I use Claude Code daily to move faster without lowering the bar.
 
+> [!TIP]
+> **Open to backend roles** (Java / Spring Boot and NestJS). The fastest way to reach me is [LinkedIn](https://www.linkedin.com/in/jinneverett/) or [email](mailto:jinneverett@gmail.com).
+
 ## What I build
 
 | | |
