@@ -1,20 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="170" viewBox="0 0 900 170" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-labelledby="t d">
   <title id="t">Vu Bao Minh — Backend Engineer</title>
-  <desc id="d">Name and role banner</desc>
+  <desc id="d">Banner: Vu Bao Minh, backend engineer in Hanoi, Vietnam. Java, Spring Boot, NestJS, TypeScript, PostgreSQL, Kafka, Redis.</desc>
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#58a6ff"/>
-      <stop offset="1" stop-color="#bc8cff"/>
+    <clipPath id="card"><rect x="1" y="1" width="898" height="248" rx="16"/></clipPath>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#8b949e" fill-opacity="0.22"/></pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="46"/></filter>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#bc8cff"/></linearGradient>
+    <linearGradient id="ng" gradientUnits="userSpaceOnUse" x1="250" y1="0" x2="650" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#f0f6fc"/><stop offset="0.5" stop-color="#79c0ff"/><stop offset="1" stop-color="#d2a8ff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-120 0;120 0;-120 0" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.6" stop-color="#0d1117" stop-opacity="0"/><stop offset="1" stop-color="#0d1117" stop-opacity="0.9"/></linearGradient>
   </defs>
   <style>
-    .name { font: 700 52px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f0f6fc; letter-spacing: -1px; }
-    .role { font: 500 19px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #8b949e; letter-spacing: 0.5px; }
+    .name { font: 800 62px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: -1.5px; }
+    .role { font: 600 15px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #8b949e; letter-spacing: 3px; }
+    .code { font: 500 18px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; fill: #7ee787; }
+    .prompt { font: 500 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #8b949e; }
   </style>
-  <text x="450" y="78" text-anchor="middle" class="name">Vu Bao Minh</text>
-  <rect x="390" y="96" width="120" height="4" rx="2" fill="url(#g)">
-    <animate attributeName="width" values="40;120;40" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
-    <animate attributeName="x" values="430;390;430" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+  <rect x="0.5" y="0.5" width="899" height="249" rx="16" fill="#0d1117" stroke="#30363d"/>
+  <g clip-path="url(#card)">
+    <rect width="900" height="250" fill="url(#dots)"/>
+    <g filter="url(#blur)">
+      <circle cx="170" cy="70" r="95" fill="#58a6ff" fill-opacity="0.3">
+        <animate attributeName="cx" values="170;300;170" dur="11s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="70;150;70" dur="9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="740" cy="170" r="105" fill="#bc8cff" fill-opacity="0.3">
+        <animate attributeName="cx" values="740;600;740" dur="13s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="170;80;170" dur="10s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="450" cy="250" r="70" fill="#3fb950" fill-opacity="0.18">
+        <animate attributeName="cx" values="450;520;380;450" dur="14s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <rect width="900" height="250" fill="url(#fade)"/>
+  </g>
+  <text x="450" y="104" text-anchor="middle" class="name" fill="url(#ng)">Vu Bao Minh</text>
+  <rect x="405" y="124" width="90" height="4" rx="2" fill="url(#bar)">
+    <animate attributeName="width" values="40;180;40" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+    <animate attributeName="x" values="430;360;430" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
   </rect>
-  <text x="450" y="136" text-anchor="middle" class="role">BACKEND ENGINEER  ·  HANOI, VIETNAM</text>
+  <text x="450" y="162" text-anchor="middle" class="role">BACKEND ENGINEER  ·  HANOI, VIETNAM</text>
+  <text x="308" y="205" class="prompt">$</text>
+  <text x="334" y="205" class="code" opacity="1">Java · Spring Boot<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.23;0.25;1" dur="16s" repeatCount="indefinite"/></text>
+  <text x="334" y="205" class="code" opacity="0">NestJS · TypeScript<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.23;0.25;0.48;0.5;1" dur="16s" repeatCount="indefinite"/></text>
+  <text x="334" y="205" class="code" opacity="0">PostgreSQL · Kafka · Redis<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.48;0.5;0.73;0.75;1" dur="16s" repeatCount="indefinite"/></text>
+  <text x="334" y="205" class="code" opacity="0">Clean Architecture · CQRS<animate attributeName="opacity" values="0;0;1;1;1" keyTimes="0;0.73;0.75;0.98;1" dur="16s" repeatCount="indefinite"/></text>
 </svg>
