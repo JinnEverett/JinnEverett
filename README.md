@@ -46,6 +46,21 @@ I build the part of a product users never see but always depend on: **APIs, data
 > [!NOTE]
 > **Currently building:** self-paced practice labs for backend fundamentals with automated checking: [SQL / PostgreSQL](https://github.com/JinnEverett/sql-practice), [NestJS](https://github.com/JinnEverett/nestjs-practice) and [data structures & algorithms](https://github.com/JinnEverett/dsa-practice).
 
+## Languages
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/1-repos-per-language.svg" />
+  <img src="profile-summary-card-output/github/1-repos-per-language.svg" alt="Top languages by repository" width="49%" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/2-most-commit-language.svg" />
+  <img src="profile-summary-card-output/github/2-most-commit-language.svg" alt="Top languages by commit" width="49%" />
+</picture>
+
+</div>
+
 ## Education
 
 **Hanoi University of Science and Technology** — B.Eng. Information Technology (Computer Engineering), GPA 3.4 / 4.0, 2021 – 2026 · TOEIC 685
