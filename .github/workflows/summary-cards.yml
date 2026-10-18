@@ -27,7 +27,6 @@ jobs:
           BRANCH_NAME: main
           UTC_OFFSET: 7
           THEME: github
-          ANIMATION: fade
           AUTO_PUSH: false
 
       # the action clears its output folder on each run, so park the light cards
@@ -42,7 +41,6 @@ jobs:
           BRANCH_NAME: main
           UTC_OFFSET: 7
           THEME: github_dark
-          ANIMATION: fade
           AUTO_PUSH: false
 
       - name: Commit cards
