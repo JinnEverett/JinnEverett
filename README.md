@@ -49,3 +49,12 @@ I build the part of a product users never see but always depend on: **APIs, data
 ## Education
 
 **Hanoi University of Science and Technology** — B.Eng. Information Technology (Computer Engineering), GPA 3.4 / 4.0, 2021 – 2026 · TOEIC 685
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JinnEverett/JinnEverett/output/github-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/JinnEverett/JinnEverett/output/github-snake.svg" alt="Contribution graph with an animated snake eating the contributions" width="100%" />
+</picture>
+
+</div>
